@@ -1,0 +1,80 @@
+package assessment1;
+
+import java.util.Scanner;
+
+public class Problem_5 {
+	
+	
+	public static void results(int a[])
+	{
+		for(int j=0;j<a.length;j++)
+		{
+			if(a[j]%2==0)
+			{
+				a[j]=0;
+			}
+			else if(a[j]%2!=0)
+			{
+				a[j]=1;
+			}
+			else if(a[j]%8==0)
+			{
+				a[j]=2;
+			}
+			else if(a[j]%10==3)
+			{
+				a[j]=3;
+			}
+			else if(a[j]%9==0)
+			{
+				a[j]=4;
+			}
+		}
+			
+			for(int i=0;i<a.length;i++)
+			{
+				System.out.print(a[i]+" ");
+			}
+	}
+		
+		
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a[]=new int[10];
+		
+		System.out.print("Enter the scores: ");
+		int i=0;
+		while(true)
+		{
+			int scores=sc.nextInt();
+			if(scores<0)
+			{
+				break;
+			}
+			a[i]=scores;
+			i++;
+			
+		}
+		
+		System.out.print("Score Befor Processing: ");
+		for(int j=0;j<a.length;j++)
+		{
+			System.out.print(a[j]+" ");
+		}
+		
+		System.out.print("Score After Processing: ");
+		results(a);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

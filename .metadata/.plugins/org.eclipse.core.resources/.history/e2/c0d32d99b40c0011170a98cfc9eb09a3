@@ -1,0 +1,95 @@
+package assessment1;
+
+import java.util.Scanner;
+
+public class Problem_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number One: ");
+		int n1=sc.nextInt();
+		System.out.println("Enter the Number Two: ");
+		int n2=sc.nextInt();
+		System.out.println("Enter the Number Three: ");
+		int n3=sc.nextInt();
+		
+		int c1=n1,c2=n2,c3=n3;
+		
+		int max=0;
+		if(n1>=100 && n1<=999 && n2>=100 && n2<=999 && n3>=100 && n3<=999 )
+		{
+			while(n1!=0)
+			{
+				if(n1%10>max)
+				{
+					max=n1%10;
+				}
+				n1/=10;
+			}
+			while(n2!=0)
+			{
+				if(n2%10>max)
+				{
+					max=n2%10;
+				}
+				n2/=10;
+			}
+			while(n3!=0)
+			{
+				if(n3%10>max)
+				{
+					max=n3%10;
+				}
+				n3/=10;
+			}
+		}
+
+		int unit=c1%10;
+		
+		c1/=10;
+		c2/=10;
+		c3/=10;
+		
+		int tens=0;
+		if(c2%10!=max)
+		{
+			tens=c2%10;
+		}
+		else if(c3%10!=max)
+		{
+			tens=c3%10;
+		}
+		else
+		{
+			tens=c1%10;
+		}
+		
+		int hundreds=0;
+		c1/=10;
+		c2/=10;
+		c3/=10;
+		
+		if(c2%10!=max)
+		{
+			hundreds=c2%10;
+		}
+		else if(c3%10!=max)
+		{
+			hundreds=c3%10;
+		}
+		else
+		{
+			hundreds=c1%10;
+		}
+		
+		int thousands=max;
+		
+		int pin=((1000*thousands)+(100*hundreds)+(10*tens)+unit);
+		
+		
+	}
+
+}

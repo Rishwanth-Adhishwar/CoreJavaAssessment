@@ -1,0 +1,38 @@
+package assessment1;
+
+import java.util.Scanner;
+
+public class Problem_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a[]=new int[10];
+		
+		System.out.print("Enter the scores: ");
+		int i=0;
+		while(true)
+		{
+			int scores=sc.nextInt();
+			if(scores==-1)
+			{
+				break;
+			}
+			a[i]=scores;
+			i++;
+			
+		}
+		
+		for(int j=0;j<a.length;j++)
+		{
+			System.out.println(a[j]+" ");
+		}
+		
+		
+		
+
+	}
+
+}
