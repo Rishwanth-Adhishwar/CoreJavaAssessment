@@ -1,0 +1,58 @@
+package problem3_BankingTransactionValidatorBank;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String args[]) throws java.lang.Exception 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Your Account id: ");
+		String accountId=sc.nextLine();
+		
+		System.out.print("Enter Account Balance: ");
+		double balance=sc.nextDouble();
+		
+		System.out.print("Enter the Amount: ");
+		double amount=sc.nextDouble();
+		
+		System.out.print("Enter Limit: ");
+		int limit=sc.nextInt();
+		
+		try
+		{
+			Validator.invalidAccountException(accountId);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+
+		
+		try
+		{
+			Validator.insufficientFundException(balance, amount);
+
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+
+		
+		try
+		{
+			Validator.TransactionLimitException(amount, limit);
+
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		finally {
+			System.out.println("Validation Complete");
+		}
+		
+	}
+}

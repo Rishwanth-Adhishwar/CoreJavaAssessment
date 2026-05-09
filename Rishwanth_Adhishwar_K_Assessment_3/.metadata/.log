@@ -1,0 +1,161 @@
+!SESSION 2026-03-23 15:00:52.501 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-23 15:00:54.170
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-23 15:01:09.855
+!MESSAGE Logback config file: D:\Rishwanth_Adhishwar_K_Assessment_3\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:01:18.695
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:01:18.700
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:01:18.747
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-23 15:01:18.815
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\krish'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:22.928
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.412.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-23 15:01:23.101
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:23.103
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 9 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:23.124
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:23.635
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:24.663
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:24.664
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:01:24.664
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-03-23 15:01:24.902
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:07.676
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 4e7069e4-3480-41c8-acb3-a6a3ce9d9f38 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 635.0611000000208ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:07.893
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:08.210
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 721118a9-db3a-406c-a3ed-d58e637f1f29 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 304.38139999998384ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:08.288
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:08.543
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 652e4c1f-4d09-40a8-b156-4cc66fada401 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 226.07910000000265ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:08.686
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:10.793
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 3b19e4dd-584c-446c-a602-5dd04a1e19cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 232.67050000000745ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:10.864
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:11.104
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 101580a1-fa8c-4346-97d7-93ed88ebaca1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 218.04060000000754ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:11.320
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:12.082
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 2bd562ef-42d0-46a1-821e-a0c5fc0b51fc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 374.3148999999976ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-23 15:04:12.083
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:15:35.749
+!MESSAGE [Info] Document is null for editor: Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:15:35.749
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidator/Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:15:35.794
+!MESSAGE [Info] Document is null for editor: BankTransactionException.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:15:35.795
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidator/BankTransactionException.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:45:12.082
+!MESSAGE [Info] Document is null for editor: BankTransactionException.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:45:12.082
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidator/BankTransactionException.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:52:50.891
+!MESSAGE [Info] Document is null for editor: Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:52:50.891
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidator/Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 15:53:07.175
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidatorBank/Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:00:28.656
+!MESSAGE [Info] Document is null for editor: Bank.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:00:28.656
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidatorBank/Bank.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.879
+!MESSAGE [Info] Document is null for editor: SubString_Concat.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.880
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem2_String_Concat/SubString_Concat.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.901
+!MESSAGE [Info] Document is null for editor: Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.902
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem4StoreandProduct/Main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.971
+!MESSAGE [Info] Document is null for editor: Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:56.971
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem4StoreandProduct/Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.017
+!MESSAGE [Info] Document is null for editor: WordFrequencyCount.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.018
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem1_WordFrequencyCount/WordFrequencyCount.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.054
+!MESSAGE [Info] Document is null for editor: Validator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.055
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidatorBank/Validator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.098
+!MESSAGE [Info] Document is null for editor: main.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-23 16:30:57.098
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Rishwanth_Adhishwar_K_Assessment_3/Java_Assessment3/src/problem3_BankingTransactionValidatorBank/Main.java

@@ -1,0 +1,10 @@
+package problem3_BankingTransactionValidator;
+
+ abstract class BankTransactionException extends Exception {
+	 
+	 BankTransactionException(Exception e)
+	 {
+		 System.out.println(e+":"+);
+	 }
+
+}

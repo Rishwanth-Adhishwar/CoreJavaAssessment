@@ -1,0 +1,32 @@
+package problem2_String_Concat;
+
+import java.util.Scanner;
+
+public class SubString_Concat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a Word: ");
+		String word=sc.nextLine();
+		
+		StringBuffer sb=new StringBuffer(word);
+		
+		if(sb.length()>2)
+		{
+			System.out.println(sb.substring(0, 2));
+		}
+		else if(sb.length()<2)
+		{
+			System.out.println(sb+"@");
+		}
+		else
+		{
+			System.out.println("@@");
+		}
+		
+
+	}
+
+}

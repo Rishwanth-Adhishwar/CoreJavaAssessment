@@ -1,0 +1,27 @@
+package problem3_BankingTransactionValidator;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String args[]) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Your Account id: ");
+		String accountId=sc.nextLine();
+		sc.nextLine();
+		
+		System.out.print("Enter Account Balance: ");
+		double balance=sc.nextDouble();
+		
+		System.out.print("Enter the Amount: ");
+		double amount=sc.nextDouble();
+		
+		System.out.print("Enter Limit: ");
+		int limit=sc.nextInt();
+		
+		Bank b=new Bank(accountId,balance,amount,limit);
+		
+	}
+}

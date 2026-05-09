@@ -1,0 +1,5 @@
+package problem3_BankingTransactionValidator;
+
+public abstract class BankTransactionException {
+
+}

@@ -1,0 +1,49 @@
+package problem3_BankingTransactionValidatorBank;
+
+ class Validator {
+	
+	String accountId;
+	double balance;
+	double amount;
+	int limit;
+	
+	public Validator(String accountId, double balance, double amount, int limit) {
+		this.accountId = accountId;
+		this.balance = balance;
+		this.amount = amount;
+		this.limit = limit;
+	}
+	
+	public static void invalidAccountException(String id) throws Exception
+	{
+		if(id.isEmpty())
+		{
+			throw new Exception("InvalidAccountException: Account ID cannot be empty [Code: 1001] ");
+		}
+	}
+	
+	public static void insufficientFundException(double balance,double amount) throws Exception
+	{
+		double rem=amount-balance;
+		if(balance<amount)
+		{
+			throw new Exception("InsufficientFundsException: Shortfall: "+rem+" [Code:1002] Validation complete. ");
+		}
+
+		
+	}
+	
+	public static void TransactionLimitException(double amount,int limit) throws Exception
+	{
+		if(amount>limit)
+		{
+			throw new Exception("TransactionLimitException: Limit: 2000.0 [Code:1003] Validation complete. ");
+		}
+
+	}
+
+	
+	
+}
+
+
