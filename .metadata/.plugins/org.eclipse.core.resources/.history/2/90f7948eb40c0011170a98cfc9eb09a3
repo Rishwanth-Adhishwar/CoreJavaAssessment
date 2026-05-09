@@ -1,0 +1,54 @@
+package assessment1;
+
+import java.util.Scanner;
+
+public class Problem_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number One: ");
+		int n1=sc.nextInt();
+		System.out.println("Enter the Number Two: ");
+		int n2=sc.nextInt();
+		System.out.println("Enter the Number Three: ");
+		int n3=sc.nextInt();
+		
+		int c1=n1,c2=n2,c3=n3;
+		
+		int max=0;
+		if(n1>=100 && n1<=999 && n2>=100 && n2<=999 && n3>=100 && n3<=999 )
+		{
+			while(n1!=0)
+			{
+				if(n1%10>max)
+				{
+					max=n1%10;
+				}
+				n1/=10;
+			}
+			while(n2!=0)
+			{
+				if(n2%10>max)
+				{
+					max=n2%10;
+				}
+				n2/=10;
+			}
+			while(n3!=0)
+			{
+				if(n3%10>max)
+				{
+					max=n3%10;
+				}
+				n3/=10;
+			}
+		}
+		
+		System.out.println(max);
+
+	}
+
+}
